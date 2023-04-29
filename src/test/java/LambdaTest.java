@@ -20,7 +20,7 @@ public class LambdaTest extends TestBase {
     private static final int ISSUE = 80;
 
     @Test
-    @Tag("issue")
+    @Tag("lambda")
     @Feature("Issue в репозитории")
     @Story("Поиск Issue в репозитории")
     @Owner("korovinaiyu")

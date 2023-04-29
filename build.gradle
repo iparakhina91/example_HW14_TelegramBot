@@ -45,6 +45,12 @@ tasks.withType(Test) {
 
 task lambda_test(type: Test) {
     useJUnitPlatform {
-        includeTags("issue")
+        includeTags("lambda")
+    }
+}
+
+task listener_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("listener")
     }
 }
